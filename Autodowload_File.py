@@ -25,6 +25,7 @@ filenames = []
 
 ##Getting URLs
 ##Range numbers denote the value of packs in the URL for specific packages, in this case, 43-47 include packages for WEIGHT LOSS
+##Restricted visiting to urls of 4 and 19 because there are no packages for these values
 for i in range(43, 48):
 
     if i in [4, 19]:
