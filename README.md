@@ -13,4 +13,6 @@
 
   - Change the range of packs accordingly by visiting https://www.cure.fit/cult/home site, selecting package and seeing what is the range in url of the package you want to download videos of.
 
+  - If you want to download every videos on the site, set the range in main script file to [1,56]
+
   - Then it will start downloading :)
