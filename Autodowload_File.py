@@ -51,10 +51,13 @@ for i in range(43, 48):
     driver.find_element_by_xpath("//div[@class='action-button normal-button']").click()  # getpack
 
     driver.refresh()
-
+    
+    ##Find number of sessions in a package
+    d=driver.find_element_by_xpath("//p[@class='bottom-text']").text
+    nbr=int((d.split(" ")[0]))+1
 
     ##Getting Video links
-    for j in range(1, 7):
+    for j in range(1, nbr):
 
         WebDriverWait(driver, 5).until(ec.element_to_be_clickable((By.XPATH, "//div[@class='img-container']")))
 
