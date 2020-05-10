@@ -11,6 +11,6 @@
 
   - It will ask you to mention the path on your local machine where you want to store the downloads
 
-  - Change the range of packs accordingly by visiting cure.fit site and seeing what is the range in url of the package you want to download videos of.
+  - Change the range of packs accordingly by visiting https://www.cure.fit/cult/home site, selecting package and seeing what is the range in url of the package you want to download videos of.
 
   - Then it will start downloading :)
